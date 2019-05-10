@@ -1,0 +1,235 @@
+﻿body {
+    direction: rtl;
+    BACKGROUND-COLOR: #f8dbea;
+}
+
+#container {
+    background-color: #a2f9de;
+    width: 960px;
+    height: 700px;
+    Margin: 50px auto;
+    
+    text-align: center;
+   
+}
+
+/*תפריט ניווט*/
+
+#nav1 ul {
+    list-style: none;
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 1012px;
+    margin: 0 auto;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float:right;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: #f15198;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 240px;
+            height: 30px;
+            Padding-top: 10px;
+            
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: #3097D2;
+            }
+
+            #nav1 ul li a:active {
+                background-color: #68edc5;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 120px;
+        }
+
+
+
+#nav1 ul li a.currentPage {
+    background-color: #68edc5;
+}
+
+nav ul li a:hover {
+    color: #faca0c;
+}
+
+/*עמוד ראשי*/
+#dani {
+    background-image: url(../images/none.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    width: 960px;
+    height: 400px;
+    color:white;
+}
+
+#dani h1{
+
+ font-size:50px;
+ padding-right:400px;
+padding-top:100px;
+
+}
+
+    #dani h2 {
+        font-size: 40px;
+        padding-right: 400px;
+       
+    }
+
+     #dani p {
+        padding-top: 40px;
+        font-size: 28px;
+        padding-right: 400px;
+    }
+
+/*העבודות שלי - אנימציה */
+
+ul li .animation {
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #f15198;
+    /* קוד האניציה*/
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    margin-top: 100px;
+    font-size: 30px;
+    padding: 25px;
+    text-decoration: none;
+ 
+}
+
+.animation:hover {
+    width: 120px;
+    height: 120px;
+    background-color: #68edc5;
+}
+
+
+section ul li {
+    display: inline-block;
+    margin-top: 50PX;
+    float: right;
+    margin-right: 75px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.myWork {
+
+
+    color:#16758a;
+    font-size:40PX;
+}
+/*האיקונים הם בתמונה של CSS 
+    כי הם משמשים תמונת אווירה*/
+
+.highIcon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+.icon {
+    margin-top: 20px;
+    background-image: url(../images/art-and-design.png);
+    margin-right: 170px;
+}
+
+.icon1 {
+    background-image: url(../images/picture.png);
+    margin-right: 280px;
+}
+
+.icon2 {
+    background-image: url(../images/website.png);
+    margin-right: 270px;
+}
+
+/* הגדרות שוות לכל הכיתוג של כל עמוד  כתב ,צבע וגודל*/
+.text {
+    color: #16758a;
+    font-size: 40px;
+    PADDING-TOP: 100PX;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
+.imageDescription {
+    color: #16758a;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-decoration-line: none;
+}
+/* גודל שווה לכל תמונה בעמודים פנימיים מלבד פרויקט סופי*/
+
+.image-poster {
+    width: 298px;
+    height: 392PX;
+    margin-top: 20px;
+     object-fit: cover;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+/* מוזיקה/יוטיוב */
+#audio1 {
+    float: left;
+    margin-top: 200px;
+}
+
+/* עמוד פנימי אחרון */
+.image-FinalProject {
+     
+    width: 295px;
+    height: 413PX;
+    margin-top: 20px;
+    object-fit: cover;
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.box iframe {
+    
+     margin-top:25px;
+}
+
+
+.box {
+    width: 960px;
+    height: 330px;
+    background-color: #FF94AD;
+    margin-top: 230px;
+    margin-bottom: 50px;
+}
+
+ 
