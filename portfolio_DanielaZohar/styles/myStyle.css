@@ -7,7 +7,7 @@
     background-color: #a2f9de;
     width: 960px;
     height: 700px;
-    Margin: 50px auto;
+    Margin: 0px auto;
     
     text-align: center;
    
@@ -71,30 +71,27 @@ nav ul li a:hover {
 }
 
 /*עמוד ראשי*/
-#dani {
+#introduction {
     background-image: url(../images/none.jpg);
     background-repeat: no-repeat;
     background-size: 960px;
     width: 960px;
     height: 400px;
-    color:white;
+    color: white;
 }
 
-#dani h1{
-
- font-size:50px;
- padding-right:400px;
-padding-top:100px;
-
-}
-
-    #dani h2 {
-        font-size: 40px;
+    #introduction h1 {
+        font-size: 50px;
         padding-right: 400px;
-       
+        padding-top: 100px;
     }
 
-     #dani p {
+    #introduction h2 {
+        font-size: 40px;
+        padding-right: 400px;
+    }
+
+    #introduction p {
         padding-top: 40px;
         font-size: 28px;
         padding-right: 400px;
